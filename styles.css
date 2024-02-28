@@ -1,0 +1,274 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+    /* background-image: url('images/keykk.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; */
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+
+
+
+header {
+    position: fixed; /* Change position to fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0); /* Change the opacity to 0 for full transparency */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+   
+}
+
+nav ul li a:hover {
+    color: #ff2617;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+#home {
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+    z-index: 1; /* Ensure content is above background image */
+    position: relative;
+    background-image: url('images/keykk.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+#home .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Add relative positioning */
+    z-index: 1000; /* Ensure footer is above background image */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+
+.container h2, p {
+    color: #000000;
+   font-size: 40px;
+    font-family: "Poppins", sans-serif;
+
+}
+.container h2 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 140px;
+
+}
+
+
+.container p {
+    font-size: 20px;
+    margin-top: -120px;
+}
+
+
+
+
+/* menu */
+
+#menu {
+    position: relative; /* Set position to relative */
+    z-index: 2; /* Ensure it's above the background image */
+    height: 690px;
+    background-color:  #b9e2e8;
+    padding: 50px;
+}
+.cake-menu {
+    background-color: none;
+
+}
+.cake-menu h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -70px;
+
+}
+
+.cakes {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    padding: 30px;
+}
+.cakes img {
+    max-width: 100%; /* Ensure images do not exceed the width of their container */
+    max-height: 100%; /* Ensure images do not exceed the height of their container */
+    object-fit: cover; /* Resize image to cover the container while maintaining aspect ratio */
+    margin: 0 10px; /* Add some margin between images */
+}
+
+.cakes p{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.menu-container {
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto;
+    padding: 0 20px;
+}
+
+.menu-container .cake {
+    margin-bottom: 40px;
+}
+
+.menu-container .cake h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.menu-container .cake p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+
+/* about */
+
+
+#about {
+    background-color: #e2d5e6;
+    /* background-color: #9642af; */
+
+    height: 580px;
+}
+
+#about-title{
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+
+
+
+/* contact */
+
+#contact{
+    background-color: #b9e2e8;
+    height: 340px;
+}
+
+
+#contact h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
+}
+.contact-container {
+    display: flex;
+    justify-content:space-between; /* Adjust as needed */
+    align-items: center; /* Align items vertically in the center */
+    /* padding: 50px; */
+    /* padding-top: 40px; */
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.adress, .contact, .opening {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.adress span, .contact span, .opening  span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.right p{
+    font-size: 18px;
+}
+
+#foot {
+    margin-top: 5px;
+}
